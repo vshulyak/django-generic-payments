@@ -11,6 +11,5 @@ setup(
     package_dir = {'': 'generic_payments'},
     include_package_data=True,
     zip_safe=False,
-    install_requires=['setuptools'],
-    install_requires=['django-annoying>=0.7.4']
+    install_requires=['setuptools', 'django-annoying>=0.7.4']
 )
